@@ -29,4 +29,20 @@ public class CocheService {
 		}
 		return potenciaTotal/7;
 	}
+	
+	/**
+	 * Para realizar los tests unitarios de CocheService
+	 * @param motorElectrico
+	 */
+	public void setMotorElectrico(MotorElectricoService motorElectrico) {
+		this.motorElectrico = motorElectrico;
+	}
+
+	/**
+	 * Para realizar los tests unitarios de CocheService
+	 * @param motorCombustion
+	 */
+	public void setMotorCombustion(MotorCombustionService motorCombustion) {
+		this.motorCombustion = motorCombustion;
+	}
 }
